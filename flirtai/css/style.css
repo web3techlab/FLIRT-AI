@@ -1,0 +1,296 @@
+*{
+  margin: 0px auto;
+}
+
+body  {
+  font-family:Arial, Helvetica, sans-serif;
+}
+
+.overlap-10{
+  background-image:url(Desktop\ -\ Background.png);
+  background-repeat: no-repeat;
+}  
+
+.male-hand-holding-a{
+  margin-left: 0px;
+}
+
+.group-8{
+  margin-bottom: 300px;
+  margin-left: 250px;
+}
+
+.banner-section  {
+  background: url(../images/banner-bg.png) no-repeat center top;
+  background-size: cover;
+  width: 100%;
+  padding: 120px 0 0;
+}
+
+.banner-mobile-img {
+  width: 418px;
+  margin-bottom: -3px;
+}
+
+.banner-content h2  {
+  font-size: 35px;
+  font-weight: 700;
+  text-align: right;
+  padding-top: 15px;
+  padding-bottom: 30px;
+  line-height: 40px;
+  font-family: 'Racing Sans One', sans-serif;
+}
+
+.banner-logo  {
+  width: 100px;
+}
+
+.banner-content {
+  padding-top: 115px;
+  text-align: right;
+}
+
+.hword{
+ font-size: 50px;
+ text-align: right;
+ letter-spacing: 3px;
+ font-family: Arial, Helvetica, sans-serif;
+}
+
+.buttons{
+  background-color: #ba1b2a;
+  color: white;
+  border-radius: 100px;
+  width: 300PX;
+  height: 61px;
+}
+
+.btn-join  {
+  background-color: #ba1b2a;
+  color: white;
+  border-radius: 100px;
+  padding: 12px 30px;
+}
+
+.btn-join:hover  {
+  background-color: #ce2d3d;
+  color: white;
+} 
+
+/*section 2 start*/
+
+.banner-section2{
+  width: 100%;
+  padding: 90px 0;
+  text-align: center;
+}
+
+.get-img  {
+  width: 600px;
+}
+
+.wordbanner{
+  color: black; 
+  font-size: 42px;
+  font-family: Racing Sans One; 
+  font-weight: 400;
+  line-height: 45.99px;
+}
+
+.wordbanner2{
+  color: #000;
+  font-family: 'Poppins';
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 109.5%;
+}
+
+.banner3{
+  background-color: #BA1B2A;
+  width: 100%;
+  padding: 90px 0;
+}
+
+.head3{
+color: #FFF;
+font-family: Racing Sans One;
+font-size: 40.91px;
+font-style: italic;
+font-weight: 400;
+text-align: center;
+}
+
+.subhead3{
+color: #FFF;
+font-family: Poppins;
+font-size: 30.325px;
+font-style: normal;
+font-weight: 400;
+}
+
+.heading3{
+  line-height: 50px;
+}
+
+.imageboard3{
+  padding-left: 300px
+  
+}
+
+.craft-img  {
+  width: 600px;
+  margin-top: 30px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*
+.box2{
+width: 246.884px;
+height: 103.855px;
+border-radius: 40.325px 40.325px 40.325px 0px;
+opacity: 0.8;
+background: #FFBEBE;
+
+}
+
+.box3{
+  width: 232.308px;
+height: 115.699px;
+flex-shrink: 0;
+border-radius: 40.325px 0px 53.766px 40.325px;
+opacity: 0.8;
+background: #FFF9C9;
+
+
+}
+
+.box4{
+  width: 245.308px;
+height: 105.516px;
+flex-shrink: 0;
+border-radius: 40.658px 40.658px 40.658px 0px;
+opacity: 0.8;
+background: #DADADA;
+
+
+}
+
+.img1{
+width: 20.042px;
+height: 21.864px;
+flex-shrink: 0;
+border-radius: 3.222px;
+background: lightgray 50% / cover no-repeat;
+box-shadow: 0px 3.644px 3.644px 0px rgba(0, 0, 0, 0.25);
+position: relative;
+}
+
+
+
+.textname1{
+  margin-left: 30px;
+  color: #000;
+
+font-family: Poppins;
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+
+.textwrapper1{
+  color: #000;
+  font-family: Poppins;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin-left: 35px;
+}
+
+.textwrapper2{
+  color: #000;
+font-family: Poppins;
+font-size: 15px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+margin-left: 33px;
+}
+
+
+
+.box1{
+ 
+  position: relative;
+  background: #F8CBFF;
+  border-radius: 40.325px 40.325px 0px 40.325px;
+  width: 262.782px;
+  height: 110.221px;
+  
+  
+  
+}
+
+.textname2{
+  color: #000;
+font-family: Poppins;
+font-size: 19px;
+font-style: normal;
+font-weight: 400;
+line-height:20px;
+width: 43px;
+height: 20px;
+margin-left: 70px;
+
+}
+
+.textname3{
+  color: #000;
+  font-family: Poppins;
+  font-size: 19px;
+  font-style: normal;
+  font-weight: 400;
+  line-height:20px;
+  width: 43px;
+  height: 20px;
+  margin-left: 70px;
+
+}
+.textname4{
+  color: #000;
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height:20px;
+  width: 43px;
+  height: 20px;
+  margin-left: 70px;
+
+}
+
+*/
+
+
+
