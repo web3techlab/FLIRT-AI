@@ -27,8 +27,58 @@
         float: right;
     }
 
+    .desktop-img{
+        display: none;
+      }
+      
+      .mobile-img{
+        display: block;
+      }
+
+.img1 {
+    position: relative;
+    width: 300px;
+    bottom: 0;
+    left: 0;
+}
+.img2{
+    position: absolute;
+    top: 81px;
+    left: 78px;
+    width: 288px;
+    height: 285px;
+}
+
+.banner3{
+    background-color: #BA1B2A;
+    width: 100%;
+   
+  }
+
+.craft-img{
+    display: none;
 
 }
+.bannerimg2{
+    position: absolute;
+    position: relative;
+    bottom: 113px;
+    
+}
+.respo-img{
+    display:grid;
+  }
+  
+.banner-mobile-img {
+    /* width: 330px; */
+    margin-bottom: 0;
+    float: right;
+}
+
+
+
+}
+
 
 
 

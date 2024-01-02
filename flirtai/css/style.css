@@ -144,8 +144,48 @@ font-weight: 400;
   margin-top: 30px;
 }
 
+.desktop-img {
+  display: block;
+}
+.mobile-img {
+  display: none;
+}
 
+.img3{
+  position: relative;
+  top: 0;
+  left: 0;
+}
 
+.img1{
+  position: relative;
+  width: 361px;
+  bottom: 56px;
+  left: 216px;
+  
+}
+
+.img2{
+  position: absolute;
+  top: 81px;
+  left: 346px;
+  width: 294px;
+  height: 342px;
+}
+
+p{
+  color: #353535;
+
+  font-family: Poppins;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 600;
+  line-height:  28.9px
+}
+
+.respo-img{
+  display: none;
+}
 
 
 
