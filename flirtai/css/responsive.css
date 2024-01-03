@@ -74,7 +74,12 @@
     margin-bottom: 0;
     float: right;
 }
-
+.imgff1{
+    display: none;
+}
+.imgff2{
+    display:block;
+  }
 
 
 }
