@@ -76,9 +76,11 @@
 }
 .imgff1{
     display: none;
+    
 }
 .imgff2{
     display:block;
+    background-image: url(/flirtai/images/boximgmob.png);
   }
 
 
