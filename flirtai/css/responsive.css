@@ -74,11 +74,11 @@
     margin-bottom: 0;
     float: right;
 }
-.imgff1{
+.imgf{
     display: none;
     
 }
-.imgff2{
+.imgff{
     display:block;
     background-image: url(/flirtai/images/boximgmob.png);
   }
