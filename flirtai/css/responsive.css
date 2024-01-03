@@ -91,6 +91,55 @@
 /* (320x480) iPhone (Original, 3G, 3GS) */
 @media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
 
+    .banner-content {
+        display: flex;
+        justify-content: center;
+        flex-flow: column;
+        align-items: flex-end;
+        align-items: center;
+        padding: 40px 0 60px;
+    }
+
+    .banner-content h2 {
+        text-align: center;
+        padding-bottom: 15px;
+    }
+
+    .banner-section {
+        background: url(/flirtai/images/mobilebg.png) no-repeat center top;
+        background-size: cover;
+        width: 100%;
+        padding: 90px 0 0;
+    }
+
+    .banner-mobile-img {
+        width: 330px;
+        margin-bottom: 0;
+        float: right;
+    }
+
+    .desktop-img{
+        display: none;
+      }
+      
+      .mobile-img{
+        display: block;
+      }
+
+.img1 {
+    position: relative;
+    width: 300px;
+    bottom: 0;
+    left: 0;
+}
+.img2{
+    position: absolute;
+    top: 81px;
+    left: 78px;
+    width: 288px;
+    height: 285px;
+}
+
 
 
 }
