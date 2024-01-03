@@ -196,8 +196,26 @@
   .imgff{
     display: none;
   }
-  
-  
+  .head2{
+    color: #000;
+
+    font-family: Racing Sans One;
+    font-size: 42px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 109.5%; /* 45.99px */
+    letter-spacing: 1.68px;
+    text-transform: uppercase;
+  }
+  .subhead2{
+    color: #000;
+
+    font-family: Poppins;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height:  21.9px 
+  }
   
   
   
