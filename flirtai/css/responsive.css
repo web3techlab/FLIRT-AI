@@ -15,7 +15,7 @@
     }
 
     .banner-section {
-        background: url(/flirtai/images/mobilebg.png) no-repeat center top;
+        background: url(../images/mobilebg.png) no-repeat center top;
         background-size: cover;
         width: 100%;
         padding: 90px 0 0;
@@ -89,7 +89,7 @@
 
 
 /* (320x480) iPhone (Original, 3G, 3GS) */
-@media only screen and (min-device-width: 430px) and (max-device-width: 932px) {
+@media only screen and (min-device-width: 390px) and (max-device-width: 390px) {
 
     .banner-content {
         display: flex;
