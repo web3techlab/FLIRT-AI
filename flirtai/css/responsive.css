@@ -50,7 +50,7 @@
 }
 
 .banner3{
-    background-color: #BA1B2A;
+    background: #00C164;
     width: 100%;
    
   }
@@ -80,8 +80,17 @@
 }
 .imgff{
     display:block;
-    background-image: url(/flirtai/images/boximgmob.png);
+   
   }
+
+  .gameimg{
+    display: none;
+}
+
+.gameimgmob{
+    display: block;
+}
+
 
 
 }
@@ -141,7 +150,6 @@
     width: 288px;
     height: 285px;
 }
-
 
 
 }
