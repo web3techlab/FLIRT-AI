@@ -70,7 +70,9 @@
     background-color: #ba1b2a;
     color: white;
     border-radius: 100px;
-    padding: 28px 30px;
+    padding-top: 15px;
+    width: 238.223px;
+    height: 56.502px;
   }
   
   .btn-join:hover  {
@@ -112,7 +114,12 @@
     width: 100%;
     padding: 90px 0;
   }
-   
+
+  .banner3copy{
+    background: #BA1B2A;
+    width: 100%;
+    padding: 90px 0;
+  }
 
 
 .head33{
@@ -380,15 +387,60 @@ text-transform: uppercase;
   border-radius: 100px;
  }
 
- button{
-  border-radius: 87.038px;
-  background: var(--Blue-1, #2F80ED);
-  width: 128.615px;
-  height: 54.018px;
-  align-items: center;
-
+ .box {
+  width: 742px;
+  height: 61px;
+ }
+ .box .rectangle {
+  position: fixed;
+  width: 742px;
+  height: 61px;
+  top: 0;
+  left:0;
+  
+  background-color: #ffffff;
+  border-radius: 100.09px;
+  backdrop-filter: blur(10.01px) brightness(100%);
+  -webkit-backdrop-filter: blur(10.01px) brightness(100%);
  }
 
+ 
+.button-regular {
+ display: flex;
+ width: 128.61px;
+ height: 54.02px;
+ align-items: center;
+ justify-content: center;
+ gap: 8.97px;
+ padding: 13.45px 49.33px;
+ position: relative;
+ background-color: var(--blue-1);
+ border-radius: 100.04px;
+}
+.button-regular .explore {
+ position: relative;
+ width: fit-content;
+ 
+ margin-left: 336px;
+ margin-bottom: 103px;
+ font-family: "Poppins-SemiBold", Helvetica;
+ font-weight: 600;
+ background: var(--Blue-1, #2F80ED);
+ font-size: 17.1px;
+ text-align: center;
+ letter-spacing: 0;
+ line-height: normal;
+ border-radius: 100.038px;
+  background: var(--Blue-1, #2F80ED);
+  display: flex;
+  width: 113.615px;
+  height: 41px;
+  padding: 0px 29px;
+  justify-content: center;
+  align-items: center;
+  gap: 8.97px;
+flex-shrink: 0;
+}
 
 
 
@@ -398,34 +450,11 @@ text-transform: uppercase;
     
   }
 
-  .col-4{
-    margin-top: 220px;
-  }
-.para{
-  color: #000;
 
-font-family: Poppins;
-font-size: 17.149px;
-font-style: normal;
-font-weight: 400;
-line-height: 206%; /* 35.326px */
-text-transform: capitalize;
-}
 
 .headfoot{
   color: #000;
-  text-align: center;
-  font-family: Poppins;
-  font-size: 27.438px;
-  font-style: normal;
-  font-weight: 600;
-  line-height: normal;
-text-transform: capitalize;
-}
-
-  
-.headfoot1{
-color: #000;
+text-align: center;
 font-family: Poppins;
 font-size: 27.438px;
 font-style: normal;
@@ -433,26 +462,43 @@ font-weight: 600;
 line-height: normal;
 text-transform: capitalize;
 }
-  
-  .col-4{
-    text-align: center;
-    
-  }
-  a{
-    
-    text-decoration: none;
-    height: 10px;
-    color: #000;
-  
-    
-    font-family: Poppins;
-    font-size: 17.149px;
-    font-style: normal;
+
+a{
+  color: #000;
+
+font-family: Poppins;
+font-size: 17.149px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+text-transform: capitalize;
+text-decoration: none;
+padding-left: 145px;
+}
+
+
+.img-fluid1{
+  width: 130px;
+}
+ 
+   .label .the-leading-NFT {
+   
+    width: 419px;
+    height: 105px;
+    top: 0;
+    left: 0;
+    font-family: "Poppins-Regular", Helvetica;
     font-weight: 400;
-    line-height: normal;
-    text-transform: capitalize;
-  }
-  
+    color: #000000;
+    font-size: 17.1px;
+    letter-spacing: 0;
+    line-height: 35.3px;
+   }
+   .footlogo{
+    width: 170px;
+    height: 28px;
+
+   }
 
  
   
