@@ -67,12 +67,15 @@
   }
   
   .btn-join  {
-    background-color: #ba1b2a;
-    color: white;
-    border-radius: 100px;
-    padding-top: 15px;
-    width: 238.223px;
-    height: 56.502px;
+    color: #000;
+
+font-family: Poppins;
+font-size: 18.088px;
+font-style: normal;
+font-weight: 600;
+line-height: 109.5%; /* 19.807px */
+letter-spacing: 0.362px;
+text-transform: uppercase;
   }
   
   .btn-join:hover  {
@@ -251,13 +254,14 @@ text-transform: uppercase;
     text-transform: uppercase;
   }
   .subhead2{
-    color: #000;
+    color: #FFF;
 
-    font-family: Poppins;
-    font-size: 20px;
-    font-style: normal;
-    font-weight: 400;
-    line-height:  21.9px 
+text-align: center;
+font-family: Poppins;
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: 140%; /* 25.2px */
   }
   
   
