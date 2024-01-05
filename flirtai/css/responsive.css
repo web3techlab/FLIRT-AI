@@ -115,13 +115,12 @@ input{
 
   .para{
     color: #000;
-  
-  font-family: Poppins;
-  font-size: 7px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: 166%;
-  text-transform: capitalize;
+    font-family: Poppins;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 166%;
+    text-transform: capitalize;
   }
   
   .headfoot{
