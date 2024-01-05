@@ -68,6 +68,10 @@
   
   .btn-join  {
     color: #000;
+    border-radius: 45.62px;
+background: #BA1B2A;
+color: #FFF;
+padding: 15px;
 
 font-family: Poppins;
 font-size: 18.088px;
