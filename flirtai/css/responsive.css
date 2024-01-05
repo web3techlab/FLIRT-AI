@@ -196,7 +196,7 @@ input{
     position: relative;
     width: fit-content;
     
-    margin-right: 96px;
+    margin-right: 117px;
     margin-bottom: 105px;
     font-family: "Poppins-SemiBold", Helvetica;
     font-weight: 600;
@@ -218,7 +218,7 @@ input{
    }
    
     .box {
-        width: 358px;
+        width: 345px;
         height: 61px;
     }
     input{
