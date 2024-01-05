@@ -23,7 +23,7 @@
 
 
 <!--baner1-->
-<section class="banner-section">
+<section class="banner-section"> 
   <div class="container">
   <div class="row">
   <div class="col-lg-6">
@@ -74,11 +74,11 @@
     
     <div class="container-fluid">
       <div class="owl-carousel">
-        <div><img src="./images/card1.png" alt=""></div>
+        <div class="view overlay zoom"><img src="./images/card1.png" alt=""></div>
         <div><img src="./images/card2.png" alt=""></div>
         <div><img src="./images/card3.png" alt=""></div>
-        <div><img src="https://via.placeholder.com/400x300/693/fff/?text=4" alt=""></div>
-        <div><img src="https://via.placeholder.com/400x300/3cc/fff/?text=5" alt=""></div>
+        
+       
         
       </div>
     </div>
@@ -249,7 +249,7 @@ $owl.children().each( function( index ) {
 $owl.owlCarousel({
   center: true,
   loop: true,
-  items: 4,
+  items: 5,
 });
 
 $(document).on('click', '.owl-item>div', function() {

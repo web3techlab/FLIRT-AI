@@ -59,7 +59,7 @@
   }
   
   .buttons{
-    background-color: #ba1b2a;
+    background-color: #ba1b2a; 
     color: white;
     border-radius: 100px;
     width: 300PX;
@@ -394,6 +394,7 @@ line-height: 140%; /* 25.2px */
  .box {
   width: 742px;
   height: 61px;
+  margin-bottom: 169px;
  }
  .box .rectangle {
   position: fixed;
@@ -501,7 +502,7 @@ padding-left: 145px;
    .footlogo{
     width: 170px;
     height: 28px;
-
+   
    }
 
  
