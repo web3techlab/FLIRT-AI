@@ -103,7 +103,7 @@ input{
     
    }
    .col-4{
-    margin-top: 44px;
+    margin-top: 139px;
   }
   .footer{
     background: url(../images/footer.png);
@@ -143,6 +143,18 @@ input{
   font-weight: 600;
   line-height: normal;
   text-transform: capitalize;
+  }
+
+  a{
+    
+    text-decoration: none;
+    color: #000;
+    font-family: Poppins;
+    font-size: 6px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-transform: capitalize;
   }
 
 
