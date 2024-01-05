@@ -100,6 +100,7 @@ input{
    button{
     border-radius: 87.038px;
     background: var(--Blue-1, #2F80ED);
+    color: black;
     
    }
    .col-4{
