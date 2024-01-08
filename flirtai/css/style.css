@@ -508,9 +508,11 @@ padding-left: 145px;
     height: 28px;
    
    }
-
+   
  
-  
+   .mobimgg{
+    display: none;
+   }
   
   
   /*
