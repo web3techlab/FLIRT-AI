@@ -232,8 +232,8 @@ input{
         border-radius: 100px;
        }
 
-       .container-fluid{
-        display: none;
+       .carosal{
+        display:none;
        }
     .mobimgg{
         display: block;
