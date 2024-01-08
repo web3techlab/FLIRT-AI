@@ -77,6 +77,7 @@
 .imgf{
     display: none;
     
+    
 }
 .imgff{
     display:block;
@@ -105,6 +106,7 @@ input{
    }
    .col-4{
     margin-top: 139px;
+    text-align: center;
   }
   .footer{
     background: url(../images/footer.png);
@@ -129,37 +131,52 @@ input{
   
   .headfoot{
     color: #000;
-    text-align: center;
+    text-align: start;
     font-family: Poppins;
     font-size: 16px;
     font-style: normal;
     font-weight: 600;
     line-height: normal;
-  text-transform: capitalize;
+    text-transform: capitalize;
+    padding-left: 32px;
+    
+  }
+
+  .headfoot1{
+    color: #000;
+    text-align: start;
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    text-transform: capitalize;
+    padding-left:20px;
+   
+  }
+
+  .img-fluid1{
+    width: 75px;
   }
   
     
-  .headfoot1{
-  color: #000;
-  font-family: Poppins;
-  font-size: 16px;
-  font-style: normal;
-  font-weight: 600;
-  line-height: normal;
-  text-transform: capitalize;
+  
+  .container1{
+    width: 100%;
+
   }
 
   a{
-    
-    text-decoration: none;
-    color: #000;
-    font-family: Poppins;
-    font-size: 12px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: normal;
-    text-transform: capitalize;
-    padding: 15px;
+        text-decoration: none;
+        color: #000;
+        font-family: Poppins;
+        font-size: 12px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        text-transform: capitalize;
+        padding: 50px;
+        display: contents;
   }
   
   .label .the-leading-NFT {
@@ -248,6 +265,8 @@ input{
         letter-spacing: 0.8px;
         text-transform: lowercase;
           }
+   
+          
 
 
 
@@ -262,53 +281,7 @@ input{
 /* (320x480) iPhone (Original, 3G, 3GS) */
 @media only screen and (min-device-width: 390px) and (max-device-width: 390px) {
 
-    .banner-content {
-        display: flex;
-        justify-content: center;
-        flex-flow: column;
-        align-items: flex-end;
-        align-items: center;
-        padding: 40px 0 60px;
-    }
 
-    .banner-content h2 {
-        text-align: center;
-        padding-bottom: 15px;
-    }
-
-    .banner-section {
-        background: url(/flirtai/images/mobilebg.png) no-repeat center top;
-        background-size: cover;
-        width: 100%;
-        padding: 90px 0 0;
-    }
-
-    .banner-mobile-img {
-        width: 330px;
-        margin-bottom: 0;
-        float: right;
-    }
-
-    .desktop-img{
-        display: none;
-      }
-      
-      .mobile-img{
-        display: block;
-      }
-
-.img1 {
-    position: relative;
-    width: 300px;
-    bottom: 0;
-    left: 0;
-}
-.img2{
-    position: absolute;
-    top: 81px;
-    left: 78px;
-    width: 288px;
-    height: 285px;
 }
 
 
