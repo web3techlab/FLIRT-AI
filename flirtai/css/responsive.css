@@ -238,7 +238,16 @@ input{
     .mobimgg{
         display: block;
     }
-
+    .wordbanner2{
+        color: #838383;
+        font-family: Poppins;
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 136.5%;
+        letter-spacing: 0.8px;
+        text-transform: lowercase;
+          }
 
 
 
