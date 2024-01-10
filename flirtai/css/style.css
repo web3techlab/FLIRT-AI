@@ -1,541 +1,495 @@
-*{
-    margin: 0px auto;
-  }
-  
-  body  {
-    font-family:Arial, Helvetica, sans-serif;
-  }
-  
-  .overlap-10{
-    background-image:url(Desktop\ -\ Background.png);
-    background-repeat: no-repeat;
-  }  
-  
-  .male-hand-holding-a{
-    margin-left: 0px;
-  }
-  
-  .group-8{
-    margin-bottom: 300px;
-    margin-left: 250px;
-  }
-  
-  .banner-section  {
-    background: url(../images/banner-bg.png) no-repeat center top;
-    background-size: cover;
-    width: 100%;
-    padding: 120px 0 0;
-  }
-  
-  .banner-mobile-img {
-    width: 418px;
-    margin-bottom: -3px;
-  }
-  
-  .banner-content h2  {
-    font-size: 35px;
-    font-weight: 700;
-    text-align: right;
-    padding-top: 15px;
-    padding-bottom: 30px;
-    line-height: 40px;
-    font-family: 'Racing Sans One', sans-serif;
-  }
-  
-  .banner-logo  {
-    width: 100px;
-  }
-  
-  .banner-content {
-    padding-top: 115px;
-    text-align: right;
-  }
-  
-  .hword{
-   font-size: 50px;
-   text-align: right;
-   letter-spacing: 3px;
-   font-family: Arial, Helvetica, sans-serif;
-  }
-  
-  .buttons{
-    background-color: #ba1b2a; 
-    color: white;
-    border-radius: 100px;
-    width: 300PX;
-    height: 61px;
-  }
-  
-  .btn-join  {
-    color: #000;
-    border-radius: 45.62px;
-background: #BA1B2A;
-color: #FFF;
-padding: 15px;
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Lobster&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200&family=Quicksand:wght@400;500;600&family=Rajdhani:wght@400;500;600;700&family=Roboto:wght@300;500;700&display=swap");
 
-font-family: Poppins;
-font-size: 18.088px;
-font-style: normal;
-font-weight: 600;
-line-height: 109.5%; /* 19.807px */
-letter-spacing: 0.362px;
-text-transform: uppercase;
-  }
-  
-  .btn-join:hover  {
-    background-color: #ce2d3d;
-    color: white;
-  } 
-  
-  /*section 2 start*/
-  
-  .banner-section2{
-    width: 100%;
-    padding: 90px 0;
-    text-align: center;
-  }
-  
-  .get-img  {
-    width: 600px;
-  }
-  
-  .wordbanner{
-    color: black; 
-    font-size: 42px;
-    font-family: Racing Sans One; 
-    font-weight: 400;
-    line-height: 45.99px;
-  }
-  
-  .wordbanner2{
-    color: #000;
-    font-family: 'Poppins';
-    font-size: 24px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 109.5%;
-  }
-  
-  .banner3{
-    background: #00C164;
-    width: 100%;
-    padding: 90px 0;
-  }
-
-  .banner3copy{
-    background: #BA1B2A;
-    width: 100%;
-    padding: 90px 0;
-  }
-
-
-.head33{
-  color: #FFF;
-
-font-family: Racing Sans One;
-font-size: 42px;
-font-style: normal;
-font-weight: 400;
-line-height: 109.5%; /* 45.99px */
-letter-spacing: 1.68px;
-text-transform: uppercase;
-}
-.btn-btn{
-border-radius: 40.62px;
-background: #FFEC00;
-width: 238.223px;
-height: 58.502px;
-flex-shrink: 0;
-
-color: #000;
-
-font-family: Poppins;
-font-size: 18.088px;
-font-style: normal;
-font-weight: 600;
-line-height: 109.5%; /* 19.807px */
-letter-spacing: 0.362px;
-text-transform: uppercase;
+* {
+  margin: 0px auto;
 }
 
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
 
+p {
+  font-family: "Roboto", sans-serif;
+  font-weight: normal !important;
+}
 
+a {
+  font-family: "Roboto", sans-serif;
+}
 
+.overlap-10 {
+  background-image: url(Desktop\ -\ Background.png);
+  background-repeat: no-repeat;
+}
 
+.male-hand-holding-a {
+  margin-left: 0px;
+}
 
+.group-8 {
+  margin-bottom: 300px;
+  margin-left: 250px;
+}
 
-  .head3{
-    color: #FFF;
-    text-align: center;
-    font-family: Racing Sans One;
-    font-size: 42px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 109.5%; /* 45.99px */
-    text-transform: uppercase;
-  }
-  
-  .subhead3{
-    color: #FFF;
-    text-align: center;
-    font-family: Poppins;
-    font-size: 18px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 140%; /* 25.2px */
-  }
-  
-  .heading3{
-    line-height: 50px;
-  }
-  
-  .imageboard3{
-    padding-left: 300px
-    
-  }
-  
-  .craft-img  {
-    width: 600px;
-    margin-top: 30px;
-  }
-  
-  .desktop-img {
-    display: block;
-  }
-  .mobile-img {
-    display: none;
-  }
-  
-  .img3{
-    position: relative;
-    top: 0;
-    left: 0;
-  }
-  
-  .img1{
-    position: relative;
-    width: 361px;
-    bottom: 56px;
-    left: 216px;
-    
-  }
-  
-  .img2{
-    position: absolute;
-    top: 81px;
-    left: 346px;
-    width: 294px;
-    height: 342px;
-  }
-  
-  p{
-    color: #353535;
-  
-    font-family: Poppins;
-    font-size: 20px;
-    font-style: normal;
-    font-weight: 600;
-    line-height:  28.9px
-  } 
-  
-  .respo-img{
-    display: none;
-  }
-  
-  
-  .imgf{
-    width: 100%;
-  
-    height: auto;
-  }
-  
-  .imgff{
-    display: none;   
-  }
-  .head2{
-    color: #000;
+.banner-section {
+  background: url(../images/banner-bg.png) no-repeat center top;
+  background-size: cover;
+  width: 100%;
+  padding: 120px 0 0;
+}
 
-    font-family: Racing Sans One;
-    font-size: 42px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 109.5%; /* 45.99px */
-    letter-spacing: 1.68px;
-    text-transform: uppercase;
-  }
-  .subhead2{
-    color: #000;
-    text-align: center;
-    font-family: Poppins;
-    font-size: 18px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 140%; /* 25.2px */
-  }
-  
-  
+.banner-mobile-img {
+  width: 418px;
+  margin-bottom: -3px;
+}
 
+.banner-content h2 {
+  font-size: 35px;
+  font-weight: 700;
+  text-align: right;
+  padding-top: 15px;
+  padding-bottom: 30px;
+  line-height: 40px;
+  font-family: "Racing Sans One", sans-serif;
+}
 
+.banner-logo {
+  width: 100px;
+}
 
+.banner-content {
+  padding-top: 115px;
+  text-align: right;
+}
 
+.hword {
+  font-size: 50px;
+  text-align: right;
+  letter-spacing: 3px;
+  font-family: Arial, Helvetica, sans-serif;
+}
 
+.buttons {
+  background-color: #ba1b2a;
+  color: white;
+  border-radius: 100px;
+  width: 300px;
+  height: 61px;
+}
 
+.btn-join {
+  color: #000;
+  border-radius: 45.62px;
+  background: #ba1b2a;
+  color: #fff;
+  padding: 15px;
 
+  font-family: Poppins;
+  font-size: 18.088px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 109.5%; /* 19.807px */
+  letter-spacing: 0.362px;
+  text-transform: uppercase;
+}
 
+.btn-join:hover {
+  background-color: #ce2d3d;
+  color: white;
+}
 
-  .car-container {
-    position: relative;
-    overflow: hidden;
-    width: 300px; /* Adjust the width and height according to your image */
-    height: 200px;
-  }
-  
-  img {
-    width: 100%;
-    height: auto;
-    transition: transform 0.3s ease-out;
-  }
-  
-  .hover-overlay {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background: rgba(0, 0, 0, 0.5); /* Adjust the overlay color and opacity */
-    opacity: 0;
-    transition: opacity 0.3s ease-in-out;
-  }
-  
-  .car-container:hover img {
-    transform: scale(1.1); /* Adjust the scale factor for the hover effect */
-  }
-  
-  .car-container:hover .hover-overlay {
-    opacity: 1;
-  }
+/*section 2 start*/
 
-  .frame{
-    width: 100%;
-    height: 644px;
-    overflow: hidden;
-  }
-  .frame  .group{
-    position: relative;
-    width: 1828px;
-    height: 585px;
-    top: 57px;
-    left: -158px;
-
-
-  }
-  .gameimgmob{
-    display: none;
-  }
-
-
-
-  .owl-item > div {
-    cursor: pointer;
-    margin: 6% 8%;
-    transition: margin 0.4s ease;
-    
-  }
-  .owl-item.center > div {
-    cursor: auto;
-    margin: 0;
-  }
-  .owl-item:not(.center) > div:hover {
-    opacity: .75;
-  }
-  
-  .footer{
-    background: url(../images/footer.png) no-repeat;
-    width: 100%;
-    height: auto;
-    background-size: cover;
-    padding-top: 90px;
-  }
-
-  .footerhead{
-    color: #000;
-
-    text-align: center;
-    font-family: Racing Sans One;
-    font-size: 42px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: normal;
-
-  }
-
-  .footerhead1{
-    color: #000;
-
-    text-align: center;
-    font-family: Poppins;
-    font-size: 17.149px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: normal;
-   
-  }
-  .mailin{
-    width: 741.677px;
-    height: 60.878px;
-    border-radius: 100.089px;
-    background: #FFF;
-    backdrop-filter: blur(5.004469394683838px);
-    
-  }
-
- 
- .input{
-  
+.banner-section2 {
+  width: 100%;
+  padding: 90px 0;
   text-align: center;
-  
-  
- }
- input{
+}
+
+.get-img {
+  width: 600px;
+}
+
+.wordbanner {
+  color: black;
+  font-size: 42px;
+  font-family: Racing Sans One;
+  font-weight: 400;
+  line-height: 45.99px;
+}
+
+.wordbanner2 {
+  color: #000;
+  font-family: "Poppins";
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 109.5%;
+}
+
+.banner3 {
+  background: #00c164;
+  width: 100%;
+  padding: 90px 0;
+}
+
+.banner3copy {
+  background: #ba1b2a;
+  width: 100%;
+  padding: 90px 0;
+}
+
+.head33 {
+  color: #fff;
+
+  font-family: Racing Sans One;
+  font-size: 42px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 109.5%; /* 45.99px */
+  letter-spacing: 1.68px;
+  text-transform: uppercase;
+}
+.btn-btn {
+  border-radius: 40.62px;
+  background: #ffec00;
+  width: 238.223px;
+  height: 58.502px;
+  flex-shrink: 0;
+
+  color: #000;
+
+  font-family: Poppins;
+  font-size: 18.088px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 109.5%; /* 19.807px */
+  letter-spacing: 0.362px;
+  text-transform: uppercase;
+}
+
+.head3 {
+  color: #fff;
+  text-align: center;
+  font-family: Racing Sans One;
+  font-size: 42px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 109.5%; /* 45.99px */
+  text-transform: uppercase;
+}
+
+.subhead3 {
+  color: #fff;
+  text-align: center;
+  font-family: Poppins;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 140%; /* 25.2px */
+}
+
+.heading3 {
+  line-height: 50px;
+}
+
+.imageboard3 {
+  padding-left: 300px;
+}
+
+.craft-img {
+  width: 600px;
+  margin-top: 30px;
+}
+
+.desktop-img {
+  display: block;
+}
+.mobile-img {
+  display: none;
+}
+
+.img3 {
+  position: relative;
+  top: 0;
+  left: 0;
+}
+
+.img1 {
+  position: relative;
+  width: 361px;
+  bottom: 56px;
+  left: 216px;
+}
+
+.img2 {
+  position: absolute;
+  top: 81px;
+  left: 346px;
+  width: 294px;
+  height: 342px;
+}
+
+p {
+  color: #353535;
+
+  font-family: Poppins;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 28.9px;
+}
+
+.respo-img {
+  display: none;
+}
+
+.imgf {
+  width: 100%;
+
+  height: auto;
+}
+
+.imgff {
+  display: none;
+}
+.head2 {
+  color: #000;
+
+  font-family: Racing Sans One;
+  font-size: 42px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 109.5%; /* 45.99px */
+  letter-spacing: 1.68px;
+  text-transform: uppercase;
+}
+.subhead2 {
+  color: #000;
+  text-align: center;
+  font-family: Poppins;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 140%; /* 25.2px */
+}
+
+.car-container {
+  position: relative;
+  overflow: hidden;
+  width: 300px; /* Adjust the width and height according to your image */
+  height: 200px;
+}
+
+img {
+  width: 100%;
+  height: auto;
+  transition: transform 0.3s ease-out;
+}
+
+.hover-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5); /* Adjust the overlay color and opacity */
+  opacity: 0;
+  transition: opacity 0.3s ease-in-out;
+}
+
+.car-container:hover img {
+  transform: scale(1.1); /* Adjust the scale factor for the hover effect */
+}
+
+.car-container:hover .hover-overlay {
+  opacity: 1;
+}
+
+.frame {
+  width: 100%;
+  height: 644px;
+  overflow: hidden;
+}
+.frame .group {
+  position: relative;
+  width: 1828px;
+  height: 585px;
+  top: 57px;
+  left: -158px;
+}
+.gameimgmob {
+  display: none;
+}
+
+.owl-item > div {
+  cursor: pointer;
+  margin: 6% 8%;
+  transition: margin 0.4s ease;
+}
+.owl-item.center > div {
+  cursor: auto;
+  margin: 0;
+}
+.owl-item:not(.center) > div:hover {
+  opacity: 0.75;
+}
+
+.footer {
+  background: url(../images/footer.png) no-repeat;
+  width: 100%;
+  height: auto;
+  background-size: cover;
+  padding: 90px 0;
+}
+
+.footerhead {
+  color: #000;
+
+  text-align: center;
+  font-family: Racing Sans One;
+  font-size: 42px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.footerhead1 {
+  color: #000;
+
+  text-align: center;
+  font-family: Poppins;
+  font-size: 17.149px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.mailin {
+  width: 741.677px;
+  height: 60.878px;
+  border-radius: 100.089px;
+  background: #fff;
+  backdrop-filter: blur(5.004469394683838px);
+}
+
+.input {
+  text-align: center;
+}
+input {
   width: 600px;
   height: 50px;
   border-radius: 100px;
- }
+}
 
- .box {
-  width: 742px;
+.box {
+  width: 600px;
   height: 61px;
-  margin-bottom: 169px;
- }
- .box .rectangle {
+  position: relative;
+}
+.box .rectangle {
   position: fixed;
   width: 742px;
   height: 61px;
   top: 0;
-  left:0;
-  
+  left: 0;
+
   background-color: #ffffff;
   border-radius: 100.09px;
   backdrop-filter: blur(10.01px) brightness(100%);
   -webkit-backdrop-filter: blur(10.01px) brightness(100%);
- }
-
- 
-.button-regular {
- display: flex;
- width: 128.61px;
- height: 54.02px;
- align-items: center;
- justify-content: center;
- gap: 8.97px;
- padding: 13.45px 49.33px;
- position: relative;
- background-color: var(--blue-1);
- border-radius: 100.04px;
 }
+
 .button-regular .explore {
- position: relative;
- width: fit-content;
- 
- margin-left: 336px;
- margin-bottom: 103px;
- font-family: "Poppins-SemiBold", Helvetica;
- font-weight: 600;
- background: var(--Blue-1, #2F80ED);
- font-size: 17.1px;
- text-align: center;
- letter-spacing: 0;
- line-height: normal;
- border-radius: 100.038px;
-  background: var(--Blue-1, #2F80ED);
-  display: flex;
-  width: 113.615px;
-  height: 41px;
-  padding: 0px 29px;
-  justify-content: center;
-  align-items: center;
-  gap: 8.97px;
-flex-shrink: 0;
+  font-family: "Poppins-SemiBold", Helvetica;
+  font-weight: 600;
+  background: var(--Blue-1, #2f80ed);
+  font-size: 17.1px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+  border-radius: 100.038px;
+  padding: 12px 35px;
+  border: none;
+  color: #fff;
 }
 
+.button-regular {
+  position: absolute;
+  top: 3px;
+  right: 3px;
+}
 
+.footer-logo {
+  width: 100px;
+}
 
-
-  .footer-logo{
-    width: 100px;
-    
-  }
-
-
-
-.headfoot{
+.headfoot {
   color: #000;
-padding-left: 120px;
-font-family: Poppins;
-font-size: 27.438px;
-font-style: normal;
-font-weight: 600;
-line-height: normal;
-text-transform: capitalize;
-margin-left: 40px;
+  font-family: Poppins;
+  font-size: 26px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  text-transform: capitalize;
+  margin-bottom: 25px;
 }
 
-.headfoot1{
-  color: #000;
-padding-left: 120px;
-font-family: Poppins;
-font-size: 27.438px;
-font-style: normal;
-font-weight: 600;
-line-height: normal;
-text-transform: capitalize;
-margin-left: 40px;
-}
 
-a{
+
+a {
   color: #000;
 
-font-family: Poppins;
-font-size: 17.149px;
-font-style: normal;
-font-weight: 400;
-line-height: normal;
-text-transform: capitalize;
-text-decoration: none;
-padding-left: 121px;
+  font-family: Poppins;
+  font-size: 17.149px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  text-transform: capitalize;
+  text-decoration: none;
 }
 
-
-.img-fluid1{
+.img-fluid1 {
   width: 130px;
 }
- 
-   .label .the-leading-NFT {
-   
-    width: 419px;
-    height: 105px;
-    top: 0;
-    left: 0;
-    font-family: "Poppins-Regular", Helvetica;
-    font-weight: 400;
-    color: #000000;
-    font-size: 17.1px;
-    letter-spacing: 0;
-    line-height: 35.3px;
-   }
-   .footlogo{
-    width: 170px;
-    height: 28px;
-   
-   }
-   
- 
-   .mobimgg{
-    display: none;
-   }
-  
-  
-  /*
+
+.label .the-leading-NFT {
+  width: 419px;
+  height: 105px;
+  top: 0;
+  left: 0;
+  font-family: "Poppins-Regular", Helvetica;
+  font-weight: 400;
+  color: #000000;
+  font-size: 17.1px;
+  letter-spacing: 0;
+  line-height: 35.3px;
+}
+.footlogo {
+  width: 170px;
+  height: 28px;
+}
+
+.the-leading-NFT {
+  font-size: 16px !important;
+  font-weight: 600 !important;
+  margin-bottom: 25px;
+
+}
+
+.list-unstyled li a {
+  font-size: 16px !important;
+  font-weight: 600 !important;
+}
+
+.list-unstyled li {
+  margin-bottom: 12px;
+}
+
+.mobimgg {
+  display: none;
+}
+
+/*
   .box2{
   width: 246.884px;
   height: 103.855px;
@@ -663,7 +617,36 @@ padding-left: 121px;
   }
   
   */
-  
-  
-  
-  
+
+.box.rectangle.text-center input {
+    border: none;
+    padding-left: 40px;
+    font-weight: 600;
+    font-size: 13px;
+    color: #000;
+}
+
+.footerhead h3  {
+  font-size: 42px;
+  margin-bottom: 0;
+  padding-bottom: 0;
+}
+
+.footerhead  {
+  margin-bottom: 50px;
+}
+
+.hr-white  {
+  border-top: 2px solid #fff;
+  margin-bottom: 50px;
+  margin-top: 50px;
+}
+
+.social-icons li a img  {
+  width: 30px;
+}
+
+.social-icons li  {
+  display: inline-block;
+  margin-right: 15px;
+}
