@@ -105,6 +105,11 @@ input{
     color: black;
     
    }
+   .button-regular {
+    position: absolute;
+    top: 3px;
+    right: 27px;
+  }
 
  
 
