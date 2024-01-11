@@ -27,7 +27,7 @@ a {
   padding: 0;
   
   /* make it look decent enough */
-  background: #232323;
+  background: #f7c305;
   color: #cdcdcd;
   font-family: "Avenir Next", "Avenir", sans-serif;
 }
@@ -171,6 +171,9 @@ a {
 #menuToggle .in:checked ~ ul
 {
   transform: none;
+}
+.navigation{
+  margin-top: -31px;
 }
 
 
