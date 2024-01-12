@@ -19,30 +19,19 @@
 
 </head>
 <body>
-  
+  <!--
   <div class="toggle">
     <nav role="navigation" class="navigation">
       <div id="menuToggle">
-        <!--
-        A fake / hidden checkbox is used as click reciever,
-        so you can use the :checked selector on it.
-        -->
+       
         <input class="in" type="checkbox" />
         
-        <!--
-        Some spans to act as a hamburger.
         
-        They are acting like a real hamburger,
-        not that McDonalds stuff.
-        -->
         <span></span>
         <span></span>
         <span></span>
         
-        <!--
-        Too bad the menu has to be inside of the button
-        but hey, it's pure CSS magic.
-        -->
+       
         <ul id="menu">
           <a href="#"><li>Home</li></a>
           <a href="#"><li>About</li></a>
@@ -52,7 +41,58 @@
         </ul>
       </div>
     </nav>
+  </div>-->
+
+<!--nav bar-->
+<div class="containernavi show-nav">
+  <div class="circle-container">
+      <div class="circle">
+          <button id="close">
+              <i class="fas fa-times"></i>
+          </button>
+          <button id="open">
+              <i class="fas fa-bars"></i>
+          </button>
+      </div>
   </div>
+  <div class="background-circle-container">
+      <div class="background-circle"></div>
+  </div>
+  <div class="content">
+      <h1>The circle od life</h1>
+      <small>Espresso Cat</small>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae corrupti alias iure ab eligendi? Nulla dolorum odio nostrum dolorem sint harum deserunt consectetur inventore dolor iste eaque, libero tenetur ab iure facilis aliquam incidunt maiores ipsum quas perspiciatis enim architecto! Quisquam culpa vero dignissimos perspiciatis consequuntur ex consectetur distinctio odit, maiores mollitia unde officiis id cum iusto earum ipsa, dolorem natus repudiandae eius labore odio porro minus excepturi. Blanditiis alias cumque, ad quibusdam rerum iure quis tempore, minus suscipit expedita possimus, aliquid omnis eos libero earum. Dolorem quis atque nesciunt provident consectetur, minus, facilis, nobis cumque iure possimus pariatur ad!</p>
+
+      <h3>The image</h3>
+
+      <img src="https://images.unsplash.com/photo-1660245094600-c45a01fcc8e3?q=80&w=1000&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="background pattern" srcset="https://images.unsplash.com/photo-1660245094600-c45a01fcc8e3?q=80&w=1032&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D 1032w, https://images.unsplash.com/photo-1660245094600-c45a01fcc8e3?q=80&w=1332&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D 1332w, https://images.unsplash.com/photo-1660245094600-c45a01fcc8e3?q=80&w=1632&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D 1632w, https://images.unsplash.com/photo-1660245094600-c45a01fcc8e3?q=80&w=1932&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D 1932w, https://images.unsplash.com/photo-1660245094600-c45a01fcc8e3?q=80&w=2064&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D 2064w, https://images.unsplash.com/photo-1660245094600-c45a01fcc8e3?q=80&w=2232&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D 2232w, https://images.unsplash.com/photo-1660245094600-c45a01fcc8e3?q=80&w=2532&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D 2532w, https://images.unsplash.com/photo-1660245094600-c45a01fcc8e3?q=80&w=2664&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D 2664w, https://images.unsplash.com/photo-1660245094600-c45a01fcc8e3?q=80&w=2832&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D 2832w, https://images.unsplash.com/photo-1660245094600-c45a01fcc8e3?q=80&w=3132&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D 3132w, https://images.unsplash.com/photo-1660245094600-c45a01fcc8e3?q=80&w=3264&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D 3264w, https://images.unsplash.com/photo-1660245094600-c45a01fcc8e3?q=80&w=3432&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D 3432w, https://images.unsplash.com/photo-1660245094600-c45a01fcc8e3?q=80&w=3732&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D 3732w, https://images.unsplash.com/photo-1660245094600-c45a01fcc8e3?q=80&w=3840&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D 3840w" sizes="(max-width: 3840px) 100vw, 3840px">
+
+      <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Deleniti libero excepturi neque eum, labore nostrum nulla veritatis sunt! Repellendus tempore ipsum nemo tempora quas optio asperiores facilis beatae dignissimos excepturi in ipsa quam, quasi fuga vitae impedit perferendis. Iure voluptatem quia blanditiis asperiores! Temporibus deleniti earum, facere consectetur mollitia magni adipisci ipsam numquam. Ut ullam saepe deleniti, veritatis sequi illo ex, obcaecati placeat quis sunt tenetur voluptates ab. Unde quibusdam soluta dignissimos autem quidem possimus?</p>
+  </div>
+</div>
+<nav>
+  <ul>
+      <li><span class="code-outer">09 </span></li>
+      <li><span class="code-inner">10 </span><i class="fas fa-home"></i> Home</li>
+      <li><span class="code-inner">11 </span><i class="fas fa-user-alt"></i> About</li>
+      <li><span class="code-inner">12 </span><i class="fas fa-envelope"></i> Contact</li>
+      <li><span class="code-outer">13 </span></li>
+  </ul>
+</nav>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 <!--baner1-->
@@ -263,7 +303,6 @@
 
 
 
-
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
@@ -286,6 +325,21 @@ $(document).on('click', '.owl-item>div', function() {
   $owl.trigger('to.owl.carousel', [$(this).data( 'position' ), $speed] );
 });
 </script>
+
+<script>
+  const open = document.getElementById('open')
+  const close = document.getElementById('close')
+  const container = document.querySelector('.containernavi')
+  
+  open.addEventListener('click', () => {
+      container.classList.add('show-nav')
+  })
+  
+  close.addEventListener('click', () => {
+      container.classList.remove('show-nav')
+  })
+  </script>
+    
 
 </body>
 </html>
