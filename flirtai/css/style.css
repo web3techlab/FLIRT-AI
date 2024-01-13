@@ -50,6 +50,8 @@ a {
 
 .containernavi.show-nav {
     transform: rotate(-20deg);
+    width: 85%;
+    margin-left: inherit;
      
 }
 
