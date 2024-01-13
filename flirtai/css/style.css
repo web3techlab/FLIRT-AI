@@ -43,14 +43,14 @@ a {
     background-color: var(--bg-color-front);
     transform-origin: top left;
     transition: transform 500ms linear;
-    width: 100vw;
-    min-height: 100vh;
-    padding: 50px;
-    filter: drop-shadow(0 0 60px var(--circle-nav));
+    width: 100%;
+   
+   
 }
 
 .containernavi.show-nav {
     transform: rotate(-20deg);
+     
 }
 
 .containernavi.show-nav + nav li {
@@ -65,13 +65,13 @@ a {
 /* 2. circle */
 
 .circle-container {
-    position: fixed;
+    position: absolute;
     top: -80px;
     left: -100px;
 }
 
 .circle {
-    background-color: var(--circle-nav);
+    background-color: #ba1b2a;
     height: 200px;
     width: 200px;
     border-radius: 50%;
@@ -96,12 +96,14 @@ a {
 }
 
 .circle button#open {
-    left: 60%;
+  left: 63%;
+  top: 89px;
 }
 
+
 .circle button#close {
-  top: 66%;
-  left: 111px;
+  top: 62%;
+  left: 130px;
     transform: rotate(90deg);
     transform-origin: top left;
 }
@@ -124,19 +126,20 @@ a {
 
 /* 3. nav */
 
-nav {
+nav  {
     position: fixed;
     bottom: 0px;
     left: 0;
     z-index: 100;
 }
 
-nav ul {
+nav ul  {
     list-style: none;
     padding-left: 20px;
+    line-height: 30px;
 }
 
-nav ul li {
+nav ul li   {
     font-family: SFMono-Regular, Consolas, 'Liberation Mono', Menlo, monospace;
     font-weight:lighter;
     color: var(--font-color-back);
@@ -146,43 +149,27 @@ nav ul li {
     transition: transform 400ms ease-in;
 }
 
-nav ul li .code-outer {
+nav ul li a .code-outer {
     color:oklch(35.41% 0.03 31.45 / 30%);
     text-shadow: 0 0 5px oklch(35.41% 0.03 31.45 / 30%);
 }
 
-nav ul li .code-inner {
+nav ul li a .code-inner {
     color:oklch(35.41% 0.03 31.45 / 40%);
     text-shadow: 0 0 5px oklch(35.41% 0.03 31.45 / 40%);
 }
 
 /* 4. content */
 
-.content {
-    max-width: 1000px;
-    margin: 50px auto;
-}
 
-.content img {
-    border-radius: 20px;
-    max-width: 100%;
-    aspect-ratio: 3840 / 2160;
-}
+
+
    
-.content h1 {
-    margin: 0;
-}
 
-.content small {
-    color: #555;
-    font-style: italic;
-}
 
-.content p {
-    color: #333;
-    line-height: 2;
-    padding-bottom: 25px;
-}
+
+
+
 
 /* 5. media */
 
@@ -325,7 +312,7 @@ nav ul li .code-inner {
 .wordbanner {
   color: black;
   font-size: 42px;
-  font-family: Racing Sans One;
+  font-family: "Racing Sans One";
   font-weight: 400;
   line-height: 45.99px;
 }
@@ -354,7 +341,7 @@ nav ul li .code-inner {
 .head33 {
   color: #fff;
 
-  font-family: Racing Sans One;
+  font-family: "Racing Sans One";
   font-size: 42px;
   font-style: normal;
   font-weight: 400;
@@ -371,7 +358,7 @@ nav ul li .code-inner {
 
   color: #000;
 
-  font-family: Poppins;
+  font-family: "Poppins";
   font-size: 18.088px;
   font-style: normal;
   font-weight: 600;
@@ -383,7 +370,7 @@ nav ul li .code-inner {
 .head3 {
   color: #fff;
   text-align: center;
-  font-family: Racing Sans One;
+  font-family: "Racing Sans One";
   font-size: 42px;
   font-style: normal;
   font-weight: 400;
@@ -394,7 +381,7 @@ nav ul li .code-inner {
 .subhead3 {
   color: #fff;
   text-align: center;
-  font-family: Poppins;
+  font-family: "Poppins";
   font-size: 18px;
   font-style: normal;
   font-weight: 400;
@@ -445,7 +432,7 @@ nav ul li .code-inner {
 p {
   color: #353535;
 
-  font-family: Poppins;
+  font-family: "Poppins";
   font-size: 20px;
   font-style: normal;
   font-weight: 600;
@@ -468,7 +455,7 @@ p {
 .head2 {
   color: #000;
 
-  font-family: Racing Sans One;
+  font-family: "Racing Sans One";
   font-size: 42px;
   font-style: normal;
   font-weight: 400;
@@ -479,7 +466,7 @@ p {
 .subhead2 {
   color: #000;
   text-align: center;
-  font-family: Poppins;
+  font-family: "Poppins";
   font-size: 18px;
   font-style: normal;
   font-weight: 400;
@@ -570,7 +557,7 @@ img {
   color: #000;
 
   text-align: center;
-  font-family: Poppins;
+  font-family: "Poppins";
   font-size: 17.149px;
   font-style: normal;
   font-weight: 400;
@@ -637,7 +624,7 @@ input {
 
 .headfoot {
   color: #000;
-  font-family: Poppins;
+  font-family: "Poppins";
   font-size: 26px;
   font-style: normal;
   font-weight: 600;
@@ -651,7 +638,7 @@ input {
 a {
   color: #000;
 
-  font-family: Poppins;
+  font-family: "Poppins";
   font-size: 17.149px;
   font-style: normal;
   font-weight: 400;
@@ -861,4 +848,14 @@ a {
 .social-icons li  {
   display: inline-block;
   margin-right: 15px;
+}
+
+.icons{
+  
+  width: 34.3px;
+  
+
+}
+.iconli{
+  line-height: 36px;
 }
