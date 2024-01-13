@@ -176,6 +176,12 @@ input{
         text-decoration: underline;
     }
    
+
+
+    .containernavi.show-nav {
+        transform: rotate(-8deg);
+        width: 70%;
+    }
           
 
 
