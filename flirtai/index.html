@@ -13,6 +13,10 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Anek+Malayalam:wght@300;400;500;600;700;800&family=Racing+Sans+One&family=Righteous&display=swap" rel="stylesheet">
 
+
+  <!-- Add this in the head section of your HTML -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" integrity="sha512-...your-sha-here..." crossorigin="anonymous" />
+
  
 <!--[if lt IE 9]>
     <script src="bower_components/html5shiv/dist/html5shiv.js"></script>
@@ -22,29 +26,23 @@
 <body>
   
 
-<!--nav bar-->
+<!--nav bar-->       <!--baner1-->
 <div class="containernavi show-nav">
   <div class="circle-container">
       <div class="circle">
           <button id="close">
-              <i class="fas fa-times">  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-x" viewBox="0 0 16 16">
-                <!-- Your SVG path code goes here -->
-                <path d="M1.646 1.646a.5.5 0 0 1 .708 0L8 6.293l6.646-6.647a.5.5 0 0 1 .708.708L8.707 7l6.647 6.646a.5.5 0 0 1-.708.708L8 7.707l-6.646 6.647a.5.5 0 0 1-.708-.708L7.293 8 .646 1.354a.5.5 0 0 1 0-.708z"/>
-              </svg></i>
+              <i class="fas fa-times"> </i>
               
           </button>
           <button id="open">
-              <i class="fas fa-bars"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-menu" viewBox="0 0 16 16">
-                <!-- Your SVG path code goes here -->
-                <path d="M0 0h16v1H0zm0 7h16v1H0zm0 7h16v1H0zM0 6h16v1H0zM0 12h16v1H0z"/>
-              </svg></i>
+              <i class="fas fa-bars"></i>
           </button>
       </div>
   </div>
   <div class="background-circle-container">
       <div class="background-circle"></div>
   </div>
-  <section class="banner-section"> 
+  <section id="home1" class="banner-section"> 
     <div class="container">
     <div class="row">
     <div class="col-lg-6">
@@ -63,9 +61,9 @@
 </div>
 <nav>
   <ul>
-      <li><span class="code-outer"> <a href="">Home</a></span></li>
-      <li><span class="code-inner"><a href="">About</a></</span><i class="fas fa-home"></i> </li>
-      <li><span class="code-inner"><a href="">contact</a></</span><i class="fas fa-user-alt"></i> </li>
+      <li><i class="fas fa-home"></i><span class="code-outer"> <a href="#home1">Home</a></span></li>
+      <li><i class="fas fa-info-circle"></i><span class="code-inner"> <a href="#about1">About</a></</span></li>
+      <li><i class="fas fa-user-alt"></i> <span class="code-inner"> <a href="#contact1">contact</a></</span></li>
       
   </ul>
 </nav>
@@ -85,7 +83,7 @@
 
 
 
-<!--baner1-->
+
 
 
 <!--baner2-->
@@ -106,9 +104,12 @@
 </div><!--container-->   
 </section>
 
-<!--baner3-->
 
-<section class="banner3">
+
+
+
+<!--baner3-->
+<section id="about1" class="banner3">
   <div class="container">
     <div class="row">
       <div class="col-lg-12 text-center">
@@ -130,6 +131,9 @@
     <div class="mobimgg"><img src="./images/gameslidemob.png" alt=""></div>
 </section>
 
+
+
+<!--banner section4-->
 <section class="banner3copy">
   <div class="container">
     <div class="row">
@@ -149,7 +153,7 @@
     </div> 
 </section>
 
-<!--banner section4-->
+<!--banner section5-->
 <section class="banner-section2">
   <div class="container">
   <div class="row">
@@ -166,39 +170,9 @@
   </div><!--container-->   
   </section>
 
-<!--baner4
 
-<section class="bannersection-4">
-  <div class="container">
-    <div class="row">
-      <div class="col-7">
-        <div class="img3">
-          <img class="img1" src="/flirtai/images/frametxt (2).png" alt="">
-          <img class="img2" src="/flirtai/images/frametxt (1).png" alt="">
-        </div>
-      </div>
-
-      <div class="col-5"> <br> <br> <br> <br>
-        <div>
-          <p>Save time and increase your <br> chances of a meaningful <br> connection. </p>
-          </div> <br>
-
-        <div>
-          <p>Gain deeper understanding, make<br> informed decisions, and elevate your<br> dating game</p>
-        </div> <br>
-
-        <div>
-          <p>Get exclusive assistance to improve<br> make informed decisions on your<br> dating life</p>
-        </div>
-
-      </div>
-    </div>
-  </div>
-</section>-->
-<!--banner 5-->
-
-
-<footer class="footer">
+<!--footer-->
+<footer id="contact1" class="footer">
   <div class="container">
     <div class="row">
       <div class="col-lg-12">
