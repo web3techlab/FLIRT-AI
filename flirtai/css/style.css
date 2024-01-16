@@ -133,7 +133,7 @@ a {
 
 nav  {
     position: fixed;
-    bottom: 0px;
+    bottom: 3px;
     left: 0;
     z-index: 100;
 }
@@ -752,4 +752,106 @@ a {
 }
 .iconli{
   line-height: 36px;
+}
+
+.banner-co1{
+  background-image: url(/flirtai/images/docsback.png);
+  width: 100%;
+  height:auto;
+  
+}
+.headlog{
+  width: 75.39px;
+  height: 35.39px;
+  top: -8.86px;
+  left: -13.51px;
+
+}
+  
+.headlog1{
+  width: 180px;
+  height: 30px;
+  top: 3.4px;
+  left: 63.01px
+  
+
+}
+.log{
+  padding-left: 110px;
+  padding-top: 100px;
+  
+}
+.para{
+  font-family: "Poppins";
+      font-size: 20px;
+      font-weight: 600;
+      line-height: 34px;
+      letter-spacing: 0em;
+      text-align: left;
+      padding-bottom: 50px;
+      width: auto;
+
+
+}
+.section-doc2{
+  background-color: white;
+  width: 100%;
+  height:auto;
+}
+.headingdoc{
+  font-family: "Racing Sans One";
+  font-size: 36px;
+  font-weight: 400;
+  line-height: 39px;
+  letter-spacing: 0.04em;
+  text-align:left;
+  padding-left: 110px;
+  padding-top: 100px;
+  height: 39px;
+  text-transform: uppercase;
+
+
+}
+.paradoc{
+  font-family: "Poppins";
+font-size: 18px;
+font-weight: 500;
+line-height: 34px;
+letter-spacing: 0em;
+text-align: left;
+padding-left: 110px;
+padding-top: 40px;
+
+
+}
+.appfeature{
+  font-family: "Racing Sans One";
+  font-size: 36px;
+  font-weight: 400;
+  line-height: 39px;
+  letter-spacing: 0.04em;
+  text-align:left;
+  padding-left: 110px;
+  padding-top: 100px;
+  height: 39px;
+  text-transform: uppercase;
+  text-decoration: underline;
+
+
+}
+.li1{
+  list-style:disc;
+  font-family: "Poppins";
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 34px;
+  letter-spacing: 0em;
+  text-align: left;
+  padding-left: 40px;
+  padding-top: 40px;
+  
+}
+.featurecontent{
+  padding-left: 100px;
+  padding: 80px;
 }
