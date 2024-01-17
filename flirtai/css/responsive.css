@@ -258,6 +258,9 @@ input{
         top: 3.4px;
         left: 63.01px;
     }
+    boady{
+        overflow-x: hidden;
+    }
 
 
 

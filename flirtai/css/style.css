@@ -8,6 +8,7 @@
 body {
   font-family: Arial, Helvetica, sans-serif;
   background-color: black;
+  overflow-x: hidden;
   
 }
 
@@ -53,6 +54,7 @@ a {
 
 .containernavi.show-nav {
     transform: rotate(-20deg);
+    
     
     
      
@@ -178,23 +180,7 @@ nav ul li a .code-inner {
 
 /* 5. media */
 
-@media screen and (max-width: 768px) {
-    .containernavi.show-nav {
-        transform: rotate(-35deg);
-    }
-}
 
-@media screen and (min-height: 381px) and (max-height: 450px) {
-    .containernavi.show-nav {
-        transform: rotate(-30deg);
-    }
-}
-
-@media screen and (min-height: 451px) and (max-height: 550px) {
-    .containernavi.show-nav {
-        transform: rotate(-25deg);
-    }
-}
 
 
 
