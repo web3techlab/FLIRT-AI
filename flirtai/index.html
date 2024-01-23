@@ -25,24 +25,27 @@
 </head>
 <body>
   
-
-<!--nav bar-->       <!--baner1-->
-<div class="containernavi show-nav">
-  <div class="circle-container">
-      <div class="circle">
-          <button id="close">
-              <i class="fas fa-times"> </i>
-              
-          </button>
-          <button id="open">
-              <i class="fas fa-bars"></i>
-          </button>
-      </div>
-  </div>
-  <div class="background-circle-container">
-      <div class="background-circle"></div>
-  </div>
+<!--section1-->
   <section id="home1" class="banner-section"> 
+    <!--navbar-->
+    <div class="menu-section">
+      <div class="menu-toggle">
+        <div  class="one"></div>
+        <div class="two"></div>
+        <div class="three"></div>
+      </div>
+      <nav data-aos="fade-up">
+            <ul data-aos="fade-up" role="navigation" id="navigation" class="hidden" >
+              <li   class="menu-item"><a href="index.html" class="menu-link active">Home</a></li>
+              <li    class="menu-item"><a href="about.html" class="menu-link">About</a></li>
+              <li    class="menu-item"><a href="blog.html" class="menu-link">News</a></li>
+              <li  data-aos="fade-up"  class="menu-item"><a href="contact.html" class="menu-link">Contact</a></li>
+            </ul>
+        </nav>
+    </div>
+
+
+
     <div class="container">
     <div class="row">
     <div class="col-lg-6">
@@ -59,16 +62,6 @@
     </div><!--row-->
     </div><!--container-->
   </section>
-</div>
-<nav>
-  <ul>
-      <li><i class="fas fa-home"></i><span class="code-outer"> <a href="#home1">Home</a></span></li>
-      <li><i class="fas fa-info-circle"></i><span class="code-inner"> <a href="#about1">About</a></</span></li>
-      <li><i class="fas fa-user-alt"></i> <span class="code-inner"> <a href="#contact1">contact</a></</span></li>
-      <li><i class="fa fa-unlock"></i> <span class="code-inner"> <a href="./docs.html">Whitepaper</a></</span></li>
-  </ul>
-</nav>
-
 
 
 
@@ -287,6 +280,15 @@ $(document).on('click', '.owl-item>div', function() {
       container.classList.remove('show-nav')
   })
   </script>
+
+
+<script>
+  $(".menu-toggle").on('click', function() {
+  $(this).toggleClass("on");
+  $('.menu-section').toggleClass("on");
+  $("nav ul").toggleClass('hidden');
+  });
+</script>
     
 
 </body>

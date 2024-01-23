@@ -178,18 +178,7 @@ input{
    
 
 
-    .containernavi.show-nav {
-        transform: rotate(-12deg);
-        margin: inherit;
-    }
-    nav {
-        position: fixed;
-        bottom: 413px;
-        left: 0;
-        z-index: 100;
-    }
-
-
+    
 
 
 
