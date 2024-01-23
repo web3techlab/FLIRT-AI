@@ -175,6 +175,18 @@ input{
     .headfoot{
         text-decoration: underline;
     }
+
+
+
+
+    .menu-toggle {
+        width: 50px;
+        height: 40px;
+        position: absolute;
+        top: 40px;
+        right: 23px;
+        cursor: pointer;
+    }
    
 
 
