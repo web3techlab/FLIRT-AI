@@ -124,7 +124,7 @@ nav ul a {
   border: 1px solid green;
 }
 nav ul a:hover {
-  background-color: #00c164;
+  background-color: #268d5b;
 }
 
 
@@ -255,6 +255,7 @@ a.active{
   background-color: #ff2c55;
   -webkit-transform: scale3d(1, 1, 1);
   transform: scale3d(1, 1, 1);
+  
 }
 
 .header-style-1 a.menu-link {
