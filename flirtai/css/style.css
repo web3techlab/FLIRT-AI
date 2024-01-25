@@ -669,7 +669,9 @@ input {
 }
 .log{
   padding-left: 110px;
-  padding-top: 100px;
+  margin:50px;
+  margin-top: 132px;
+
   
 }
 .para{
@@ -680,6 +682,7 @@ input {
     letter-spacing: 0em;
     padding-bottom: 50px;
     margin: 50px;
+    padding-left: 110px;
      
      
 
