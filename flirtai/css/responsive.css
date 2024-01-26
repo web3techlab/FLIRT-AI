@@ -179,10 +179,72 @@ input{
 
 
    /*doc.html*/
+   .para {
+    font-family: 'Poppins';
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 40px;
+    letter-spacing: 0em;
+    margin-bottom: 69px;
+    margin: 35px;
+}
 
+.headingdoc {
+  color: #000;
+  font-family: "Poppins";
+  font-size: 28px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 109.5%;
+  letter-spacing: 1.12px;
+  text-transform: uppercase;
+  margin-bottom: 18px;
+  margin: 35px;
+}
 
+.paradoc {
+  color: #000;
+  font-family: 'Poppins';
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 30px;
+  margin: 0px;
+  margin-bottom: 50px;
+  margin: 35px;
+}
 
+.appfeature {
+  font-family: "Racing Sans One";
+  font-size: 36px;
+  font-weight: 400;
+  line-height: 39px;
+  letter-spacing: 0.04em;
+  text-align: left;
+  height: 39px;
+  text-transform: uppercase;
+  text-decoration: underline;
+  margin-bottom: 50px;
+  margin: 35px;
+}
 
+.li1 {
+    list-style: disc;
+    font-family: "Poppins";
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 34px;
+    letter-spacing: 0em;
+    text-align: left;
+    padding-bottom: 20px;
+    margin: 35px;
+}
+h1{
+  margin: 35px;
+}
+h3{
+  margin: 35px;
+}
 
 /*nav*/
 
