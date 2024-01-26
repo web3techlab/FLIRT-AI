@@ -699,12 +699,12 @@ input {
   font-size: 28px;
   font-style: normal;
   font-weight: 600;
-  line-height: 109.5%; /* 30.66px */
+  line-height: 0px; 
   letter-spacing: 1.12px;
   text-transform: uppercase;
   text-align:left;
   padding-left: 110px;
-  padding-top: 100px;
+  
   margin-left: 50px;
   
 
@@ -717,10 +717,10 @@ input {
   font-size: 18px;
   font-style: normal;
   font-weight: 500;
-  line-height: 30px; /* 166.667% */
+  line-height: 40px; /* 166.667% */
   text-align: left;
   padding-left: 110px;
-  padding-top: 40px;
+  
   margin: 50px;
 
 
@@ -733,7 +733,7 @@ input {
   letter-spacing: 0.04em;
   text-align:left;
   padding-left: 110px;
-  padding-top: 100px;
+  
   height: 39px;
   text-transform: uppercase;
   text-decoration: underline;
@@ -749,14 +749,14 @@ input {
   line-height: 34px;
   letter-spacing: 0em;
   text-align: left;
-  padding-left: 40px;
+  
   padding-top: 40px;
   
 }
-.featurecontent{
- 
-  padding: 100px;
+.featurecontent {
+  padding-left: 110px;
   margin: 50px;
+  margin-right: 52px;
 }
 #myBtn {
   display: none; /* Hidden by default */
