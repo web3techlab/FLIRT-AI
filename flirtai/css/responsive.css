@@ -268,7 +268,7 @@ input{
   padding: 0px;
   margin: 50px;
 }
-li1 {
+.li1 {
   list-style: disc;
   font-family: "Poppins";
   font-size: 18px;
