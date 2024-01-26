@@ -185,8 +185,8 @@ input{
     font-weight: 500;
     line-height: 40px;
     letter-spacing: 0em;
-    margin-bottom: 69px;
     margin: 35px;
+    margin-bottom: 70px;
 }
 
 .headingdoc {
@@ -246,6 +246,16 @@ h3{
   margin: 35px;
 }
 
+.log {
+  /* padding-left: 110px; */
+  /* margin: 50px; */
+  /* margin-top: 132px; */
+  padding-top: 70px;
+  /* padding-left: 44px; */
+  margin-right: 0px;
+  padding-bottom: 0px;
+  margin-left: 61px;
+}
 /*nav*/
 
 .nav-desk{
