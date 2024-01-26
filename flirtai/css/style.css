@@ -36,8 +36,8 @@
   
 }
 .nav-desk {
-  margin-left: 380px;
-  margin-top: -100px;
+  
+  text-align: center;
   width: Hug (431px);
   height: Hug (15px);
   top: 37px;
@@ -137,7 +137,7 @@
   background: url(../images/banner-bg.png) no-repeat center top;
   background-size: cover;
   width: 100%;
-  padding: 120px 0 0;
+  
 }
 
 .banner-mobile-img {
@@ -644,45 +644,61 @@ input {
   line-height: 36px;
 }
 
-.banner-co1{
+.banner-co{
   background-image: url(../images/docsback.png);
   width: 100%;
   height:auto;
-  padding-top: 120px;
+ 
+ 
   
 }
 .headlog{
-  width: 75.39px;
-  height: 35.39px;
-  top: -8.86px;
-  left: -13.51px;
+  width: 52px;
+  height: 45px;
+  top: 143px;
+  left: 161px;
+  width: 52px;
+height: 45px;
+flex-shrink: 0;
+  
 
 }
   
 .headlog1{
-  width: 180px;
-  height: 30px;
-  top: 3.4px;
-  left: 63.01px
+  width: 138px;
+height: 42px;
+top: 146.4px;
+left: 224.01px;
+color: #BA1B2A;
+font-family: "Racing Sans One";
+font-size: 37.977px;
+font-style: normal;
+font-weight: 400;
+line-height: 109.5%; /* 41.585px */
+
   
 
 }
-.log{
-  padding-left: 110px;
-  margin:50px;
-  margin-top: 132px;
-
-  
+.log {
+  /* padding-left: 110px; */
+  /* margin: 50px; */
+  /* margin-top: 132px; */
+  padding-top: 113px;
+ 
+  /* padding-left: 44px; */
+  margin-right: 82px;
+  padding-bottom: 64px;
 }
+
+
 .para{
     font-family: 'Poppins';
     font-size: 20px;
     font-weight: 500;
     line-height: 40px;
     letter-spacing: 0em;
-    padding-bottom: 50px;
-    margin: 50px;
-    padding-left: 110px;
+   
+   margin-bottom: 69px;
      
      
 
@@ -695,21 +711,23 @@ input {
 }
 .headingdoc{
   color: #000;
-  font-family: 'Poppins';
+  font-family: "Poppins";
   font-size: 28px;
   font-style: normal;
   font-weight: 600;
-  line-height: 0px; 
+  line-height: 109.5%; /* 30.66px */
   letter-spacing: 1.12px;
   text-transform: uppercase;
-  text-align:left;
-  padding-left: 110px;
-  
-  margin-left: 50px;
+  margin-bottom: 18px;
   
 
 
 }
+.st{
+  padding-top: 60px;
+}
+
+
 .paradoc{
 
   color: #000;
@@ -718,13 +736,13 @@ input {
   font-style: normal;
   font-weight: 500;
   line-height: 30px; /* 166.667% */
-  text-align: left;
-  padding-left: 110px;
-  
-  margin: 50px;
+  margin: 0px;
+  margin-bottom: 50px;
 
 
 }
+
+
 .appfeature{
   font-family: "Racing Sans One";
   font-size: 36px;
@@ -732,12 +750,11 @@ input {
   line-height: 39px;
   letter-spacing: 0.04em;
   text-align:left;
-  padding-left: 110px;
-  
   height: 39px;
   text-transform: uppercase;
   text-decoration: underline;
-  margin: 50px;
+  margin-bottom: 50px;
+ 
 
 
 }
@@ -749,15 +766,11 @@ input {
   line-height: 34px;
   letter-spacing: 0em;
   text-align: left;
+  padding-bottom: 20px;
   
-  padding-top: 40px;
   
 }
-.featurecontent {
-  padding-left: 110px;
-  margin: 50px;
-  margin-right: 52px;
-}
+
 #myBtn {
   display: none; /* Hidden by default */
   position: fixed; /* Fixed/sticky position */

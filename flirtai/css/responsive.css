@@ -179,108 +179,6 @@ input{
 
 
    /*doc.html*/
-    .banner-co1{
-        background-image: url(../images/docsback.png);
-        width: 100%;
-        height:auto;
-        
-        
-      }
-
-  .para{
-        font-family: 'Poppins';
-        font-size: 20px;
-        font-weight: 500;
-        line-height: 40px;
-        letter-spacing: 0em;
-        margin-right: 30px;
-         padding-bottom: 50px;
-    }
-
- .log {
-      padding-left: 64px;
-      margin: 0px;
-      margin-top: -55px;
-  }
-
-  .para{
-    font-family: 'Poppins';
-    font-size: 20px;
-    font-weight: 500;
-    line-height: 40px;
-    letter-spacing: 0em;
-    padding-bottom: 66px;
-    margin: 55px;
-    padding-left: 0px;
-    margin-right: 50px;
-
-}
-
-.paradoc{
-
-  color: #000;
-  font-family: 'Poppins';
-  font-size: 18px;
-  font-style: normal;
-  font-weight: 500;
-  line-height: 30px; /* 166.667% */
-  text-align: left;
-  padding-left: 110px;
-  padding-top: 40px;
-  margin: 50px;
-  padding-left: 0px;
-
-
-}
-.appfeature {
-  font-family: "Racing Sans One";
-  font-size: 27px;
-  font-weight: 400;
-  line-height: 39px;
-  letter-spacing: 0.04em;
-  text-align: left;
-  padding-left: 60px;
-  padding-top: 0px;
-  /* height: 39px; */
-  text-transform: uppercase;
-  text-decoration: underline;
-  margin: 0px;
-}
-.headingdoc{
-  color: #000;
-  font-family: 'Poppins';
-  font-size: 28px;
-  font-style: normal;
-  font-weight: 600;
-  line-height: 109.5%; /* 30.66px */
-  letter-spacing: 1.12px;
-  text-transform: uppercase;
-  text-align:left;
-  padding-left: 0px;
- margin-left: 50px;
- padding-top: 2px;
- margin-right: 50px;
-  
-
-
-}
-.featurecontent {
-  padding: 0px;
-  margin: 50px;
-}
-.li1 {
-  list-style: disc;
-  font-family: "Poppins";
-  font-size: 18px;
-  font-weight: 500;
-  line-height: 34px;
-  letter-spacing: 0em;
-  text-align: left;
-  /* padding-left: 40px; */
-  padding-top: 30px;
-}
-
-
 
 
 
@@ -555,45 +453,6 @@ input{
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-   
-
-
-        
-  
-    
-
-
-
 }
 
 
@@ -680,16 +539,10 @@ input{
 @media only screen and (min-device-width: 1536px) and (max-device-width: 2048px) {
     /* insert styles here */
 
-    .nav-desk {
-      margin-left: 623px;
-      margin-top: -100px;
-      width: Hug (431px);
-      height: Hug (15px);
-      top: 37px;
-      left: 541px;
-      gap: 49px;
-  }
 
+  
+
+   
   
 }
 
