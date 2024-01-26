@@ -77,7 +77,9 @@
 
 
 
-
+.menu-section{
+  display: none;
+}
 
 
 
@@ -648,6 +650,7 @@ input {
   background-image: url(../images/docsback.png);
   width: 100%;
   height:auto;
+  
  
  
   

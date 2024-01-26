@@ -262,6 +262,10 @@ h3{
     display: none;
 }
 
+.menu-section{
+  display: block;
+}
+
 
 .menu-section.on {
     z-index: 10;
@@ -520,6 +524,16 @@ h3{
   
   .header-expanded a.menu-link {
     color: #fff;
+  }
+
+  .banner-co{
+    background-image: url(../images/docsback.png);
+    width: 100%;
+    height:auto;
+    padding-top: 120px;
+   
+   
+    
   }
 
 
